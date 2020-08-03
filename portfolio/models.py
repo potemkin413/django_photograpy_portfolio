@@ -15,8 +15,8 @@ class side_bar(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = "Sidebar"
-        verbose_name_plural = "Sidebar"
+        verbose_name = "Меню"
+        verbose_name_plural = "Меню"
 
 
 class intro(models.Model):
@@ -30,8 +30,8 @@ class intro(models.Model):
         return self.slogan
 
     class Meta:
-        verbose_name = "Intro"
-        verbose_name_plural = "Intro"
+        verbose_name = "Начальный блок"
+        verbose_name_plural = "Начальный блок"
 
 
 class services(models.Model):
@@ -57,8 +57,8 @@ class services(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = "Service"
-        verbose_name_plural = "Services"
+        verbose_name = "Услуга"
+        verbose_name_plural = "Услуги"
 
 
 class portfolio(models.Model):
@@ -71,8 +71,8 @@ class portfolio(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = "Image"
-        verbose_name_plural = "Images"
+        verbose_name = "Фотография в портфолио"
+        verbose_name_plural = "Фотографии в портфолио"
 
 
 class clients(models.Model):
@@ -84,8 +84,8 @@ class clients(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = "Image"
-        verbose_name_plural = "Images"
+        verbose_name = "Логотип постоянных клиентов"
+        verbose_name_plural = "Логотипы постоянных клиентов"
 
 
 class about_me(models.Model):
@@ -99,8 +99,8 @@ class about_me(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = "About me"
-        verbose_name_plural = "About me"
+        verbose_name = "Информация обо мне"
+        verbose_name_plural = "Информация обо мне"
 
 
 class contact_me(models.Model):
@@ -115,8 +115,8 @@ class contact_me(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = "Contact me"
-        verbose_name_plural = "Contact me"
+        verbose_name = "Контакты для связи"
+        verbose_name_plural = "Контакты для связи"
 
 
 class footer(models.Model):
@@ -126,8 +126,8 @@ class footer(models.Model):
         return self.text
 
     class Meta:
-        verbose_name = "Footer"
-        verbose_name_plural = "Footers"
+        verbose_name = "Подвал"
+        verbose_name_plural = "Подвал"
 
 
 
